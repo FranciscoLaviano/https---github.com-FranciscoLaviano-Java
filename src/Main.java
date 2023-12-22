@@ -6,7 +6,7 @@ public class Main {
        // La moneda de monto, cuota e interesesTotales es U$S
         float monto = 500.16f;
       //cantidadCuotas es la cantidad de meses que voy a demorar en pagar el préstamo
-        int cantidadCuotas = 8;
+        int cantidadCuotas = 29;
 
        System.out.println("El monto solicitado es: "+ monto + " U$S");
 
