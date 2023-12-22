@@ -1,23 +1,24 @@
-package src;
 public class Main {
-
     public static void main(String[] args) {
-
-        String primerNombre = "Francisco";
-        String segundoNombre = "Antonio";
-        String apellido = "Laviano";
-        String segundoApellido = "Colman";
-
-        int edad = 42;
-
-        System.out.println(
-          "Nombre completo: "+primerNombre +" "+ segundoNombre +" "+ apellido +" "+ segundoApellido +"; "+
-          "Edad: " + edad
-          
-
-        );
         
-    }
+     System.out.println("PRESTAMOS A SOLA FIRMA EN U$S");
 
+       // La moneda es U$S
+        float monto = 500.16f;
+
+        int cantidadCuotas = 8;
+
+        float intereses = 0.13f ;
+
+
+       float cuota = (monto / cantidadCuotas) * (1.00f+0.13f) ;
+
+
+        float interesTotal =  monto * intereses * cantidadCuotas;
+
+        System.out.println("La cuota de este mes es de: "+ cuota + " U$S");
+
+        System.out.println("El pago total es de: "+interesTotal+" U$S");
+    }
     
 }
